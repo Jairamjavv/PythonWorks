@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pythonworks"
+version = "0.0.1"
+description = "Just code in Python"
+authors = ["Jairam B <b.jairam0512@gmail.com>"]
+license = "OpenLicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
